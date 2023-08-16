@@ -79,6 +79,17 @@ You define directions on attributes, by default this attribute is `simply-fade`,
 | **transitionDuration** | How long the animation takes to play                                                | number (0 to 1) | 0.5           | ❌        |
 | **movementPx**         | How many pixels the element slides in                                               | number          | 50            | ❌        |
 
+### Attribute options
+
+```html
+<div simply-fade="up">...</div>
+<div simply-fade="right">...</div>
+<div simply-fade="down">...</div>
+<div simply-fade="left">...</div>
+<div simply-fade="fade">...</div>
+<!-- `simply-fade="fade"` means no horizontal or vertical movement, just fade in -->
+```
+
 ## 🛣️ Roadmap (TODO)
 
 -   Optimise build process & update build tools

@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 The following code produces the behaviour displayed in the GIF.
 
-![](https://github.com/rps-code/hover-cursor/blob/main/demo.gif)
+![](https://github.com/rps-code/simply-fades/blob/main/demo.gif)
 
 ```js
 import { SimplyFade } from 'simply-fade'
